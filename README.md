@@ -1,8 +1,9 @@
 # Blue Archive Auto Chess Game
-![BAChess](img/logo/BAChes.png)
----
-A text-based auto chess game implemented in Python where players strategically purchase, deploy, and battle with units to defeat their opponents.
+![BAChess](img/logo/BAChess.png)
 
+> A text-based auto chess game implemented in Python where players strategically purchase, deploy, and battle with units to defeat their opponents.
+
+![ChessDisplay](img/logo/display.jpg)
 ## 🎮 Game Features
 - **Strategic Unit Management**: Buy units, merge identical ones to upgrade stars, and deploy them for battle
 - **Element System**: 🔴 > 🔵 > 🟡 > 🔴 with 2x damage bonus and 0.5x damage penalty
