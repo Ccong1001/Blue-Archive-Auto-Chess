@@ -7,7 +7,7 @@ from models.shop import Shop
 from models.player import Player
 from core.tutorial import show_tutorial
 from core.battle import battle
-from utils.display import game_round
+from core.display import game_round
 
 def main():
     '''
