@@ -18,7 +18,6 @@ def battle(p1, p2):
     Returns:
         None
     '''
-    input("Press Enter to start battle...")
     print("\n========== BATTLE START ==========")
     p1.deploy_units()
     p2.deploy_units()

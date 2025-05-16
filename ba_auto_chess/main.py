@@ -52,5 +52,15 @@ def main():
     # Game end and results
     print("\n🎮 Game Over! Thanks for Playing!")
 
+    p1_sucess = 5 - player1.fail
+    p2_sucess = 5 - player2.fail
+    print(f"\n{player1.name} won {p1_sucess} rounds, {player2.name} won {p2_sucess} rounds.")
+    if p1_sucess > p2_sucess:
+        print(f"Congratulations {player1.name}, you are the champion!")
+    elif p1_sucess < p2_sucess:
+        print(f"Better luck next time, {player1.name}!")
+    else:
+        print("It's a draw!") 
+
 if __name__ == "__main__":
     main()
