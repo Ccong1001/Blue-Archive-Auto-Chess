@@ -36,7 +36,7 @@ class Player:
             None
         '''
         base_income = 5
-        interest = self.gold // 10  # 10% interest
+        interest = self.gold // 5  # 20% interest
         streak_gold = self.fail  # Gold bonus for consecutive losses
         
         total_income = base_income + interest + streak_gold
