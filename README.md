@@ -22,8 +22,13 @@ A text-based auto chess game implemented in Python where players strategically p
 3. **Element Matching**: Use favorable element matchups against your opponent
 4. **Economy Management**: Balance spending versus saving for interest income
 ## 🕹️ How To Play
+### Download
+`git clone https://github.com/Ccong1001/Blue-Archive-Auto-Chess.git`
+`cd Blue-Archive-Auto-Chess/ba_auto_chess`
+`python main.py`
+
 ### Run the game:
-Follow the prompts to:
+
 #### 1. View the tutorial (optional)
 ```
 === Welcome to Mini Auto Chess Game! ===
@@ -231,5 +236,5 @@ Better luck next time, Cora!
 | :------------------------------: | :------------------------------: | :------------------------: |
 | ![Hoshino](img/unit/Hoshino.png) | ![Shiroko](img/unit/Shiroko.png) | ![Mizu](img/unit/Mizu.png) |
 
-## Pygame Version
-Coming Soon (maybe?)
+## Coming Soom (maybe?)
+- Visualization
