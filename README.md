@@ -6,10 +6,10 @@ A text-based auto chess game implemented in Python where players strategically p
 ## 🎮 Game Features
 - **Strategic Unit Management**: Buy units, merge identical ones to upgrade stars, and deploy them for battle
 - **Element System**: 🔴 > 🔵 > 🟡 > 🔴 with 2x damage bonus and 0.5x damage penalty
-- **school Synergies**: Units from the same school gain +1 ATK when there are 2+ of them
+- **School Synergies**: Units from the same school gain +1 ATK when there are 2+ of them
 - **Various Unit Skills**: AOE attacks, shields, healing, and more
 - **Economy System**: Earn gold through income, interest, and loss streaks
-- Automatic Battles**: Units fight autonomously using their skills and abilities
+- **Automatic Battles**: Units fight autonomously using their skills and abilities
 
 ## 🏗️ Project Structure
 ### 🎲 Gameplay
@@ -221,21 +221,29 @@ Better luck next time, Cora!
 |         🟡Momoi          |         🔴Yuuka          |         🔵Alice          |         🔵Asuna          |
 | :---------------------: | :---------------------: | :---------------------: | :---------------------: |
 | ![Momoi](img/unit/Momoi.png) | ![Yuuka](img/unit/Yuuka.png) | ![Alice](img/unit/Alice.png) | ![Asuna](img/unit/Asuna.png) |
+| [cost]4 / [hp]6 / [atk]6 | [cost]4 / [hp]15 / [atk]3 | [cost]4 / [hp]5 / [atk]6 | [cost]3 / [hp]8 / [atk]5 |
+| AOE-2 | shield | AOE-3 | / |
 
 ### Trinity
 |           🟡Mika           |            🔴Koharu            |            🔵Natsu           |            🔵Hanako            |
 | :------------------------: | :----------------------------: | :--------------------------: | :----------------------------: |
 | ![Mika](img/unit/Mika.png) | ![Koharu](img/unit/Koharu.png) | ![Natsu](img/unit/Natsu.png) | ![Hanako](img/unit/Hanako.png) |
+| [cost]7 / [hp]10 / [atk]8 | [cost]4 / [hp]6 / [atk]3 | [cost]5 / [hp]12 / [atk]15 | [cost]3 / [hp]5 / [atk]4 |
+| / | heal | shield | AOE-all |
 
 ### Gehenna
 |           🔴Hina           |             🔴Mutsuki            |            🔵Iroha           |           🟡Iori           |
 | :------------------------: | :------------------------------: | :--------------------------: | :------------------------: |
 | ![Hina](img/unit/Hina.png) | ![Mutsuki](img/unit/Mutsuki.png) | ![Iroha](img/unit/Iroha.png) | ![Iori](img/unit/Iori.png) |
+| [cost]6 / [hp]8 / [atk]9 | [cost]5 / [hp]6 / [atk]6 | [cost]10 / [hp]6 / [atk]6 | [cost]4 / [hp]6 / [atk]4 |
+| / | AOE-3 | AOE-all | / |
 
 ### Others
 |             🟡Hoshino            |             🔴Shiroko            |           🟡Mizu           |
 | :------------------------------: | :------------------------------: | :------------------------: |
 | ![Hoshino](img/unit/Hoshino.png) | ![Shiroko](img/unit/Shiroko.png) | ![Mizu](img/unit/Mizu.png) |
+| [cost]5 / [hp]14 / [atk]4 | [cost]3 / [hp]8 / [atk]4 | [cost]4 / [hp]7 / [atk]5 |
+| shield | / | / |
 
 ## Coming Soom (maybe?)
 - Visualization
