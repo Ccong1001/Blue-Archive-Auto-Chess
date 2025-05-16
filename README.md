@@ -241,5 +241,7 @@ Better luck next time, Cora!
 | [cost]5 [hp]14 [atk]4 | [cost]3 [hp]8 [atk]4 | [cost]4 [hp]7 [atk]5 | |
 | shield | / | / | |
 
-## Coming Soom (maybe?)
-- Visualization
+## Coming Soon (If I can)
+- Visualization System
+- Positioning System
+- More Skills
