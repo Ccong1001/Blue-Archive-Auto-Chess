@@ -99,10 +99,12 @@ def battle(p1, p2):
     print("\n🏁 === BATTLE END === 🏁")
     if alive1 > alive2:
         print(f"\n🏆 {p1.name} wins! (Surviving units: {alive1})")
+        p1.win += 1
         p1.fail = 0
         p2.fail += 1
     elif alive2 > alive1:
         print(f"\n🏆 {p2.name} wins! (Surviving units: {alive2})")
+        p2.win += 1
         p2.fail = 0
         p1.fail += 1
     else:

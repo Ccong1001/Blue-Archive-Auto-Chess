@@ -24,6 +24,7 @@ class Player:
         self.units = []  # Units on the field
         self.reserve = []  # Units in reserve
         self.fail = 0  # Track consecutive losses for comeback gold
+        self.win = 0  # Track wins for comeback gold
     
     def income(self):
         '''

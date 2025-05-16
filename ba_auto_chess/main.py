@@ -48,16 +48,16 @@ def main():
         print(f"\n\n🌟🌟 Round {round_id} 🌟🌟")
         game_round(player1, player2, shop)
         battle(player1, player2)
+        if player1.win == 3 or player2.win == 3:
+            break
 
     # Game end and results
     print("\n🎮 Game Over! Thanks for Playing!")
 
-    p1_sucess = 5 - player1.fail
-    p2_sucess = 5 - player2.fail
-    print(f"\n{player1.name} won {p1_sucess} rounds, {player2.name} won {p2_sucess} rounds.")
-    if p1_sucess > p2_sucess:
+    print(f"\n{player1.name} won {player1.win} rounds, {player2.name} won {player2.win} rounds.")
+    if player1.win > player2.win:
         print(f"Congratulations {player1.name}, you are the champion!")
-    elif p1_sucess < p2_sucess:
+    elif player1.win < player2.win:
         print(f"Better luck next time, {player1.name}!")
     else:
         print("It's a draw!") 
