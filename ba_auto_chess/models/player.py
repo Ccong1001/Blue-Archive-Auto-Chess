@@ -43,7 +43,7 @@ class Player:
         self.gold += total_income
         
         print(f"{self.name} gets income: base {base_income} + interest {interest} + loss streak {streak_gold} = {total_income} gold.")
-        print(f"{self.name} has {self.gold} gold.")
+        print(f"Gold :{self.gold}")
     
     def buy_unit(self, unit):
         '''

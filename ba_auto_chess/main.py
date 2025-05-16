@@ -1,5 +1,5 @@
 """
-Main entry point for the Mini Auto Chess game
+Main entry point for the Blue Archive Auto Chess game
 """
 
 import time
@@ -19,7 +19,7 @@ def main():
     Returns:
         None
     '''
-    print("\n=== Welcome to Mini Auto Chess Game! ===")
+    print("\n=== Welcome to Blue Archive Auto Chess Game! ===")
 
     # Prompt for tutorial
     show_help = input("Would you like to see the game tutorial? (y/n): ").lower().strip()

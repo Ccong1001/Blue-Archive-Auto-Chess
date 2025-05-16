@@ -1,4 +1,5 @@
 # Blue Archive Auto Chess Game
+![BAChess](img/logo/BAChes.png)
 A text-based auto chess game implemented in Python where players strategically purchase, deploy, and battle with units to defeat their opponents.
 
 ## 🎮 Game Features
