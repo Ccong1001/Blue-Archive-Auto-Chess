@@ -24,8 +24,8 @@ A text-based auto chess game implemented in Python where players strategically p
 ## 🕹️ How To Play
 ### Download
 1. `git clone https://github.com/Ccong1001/Blue-Archive-Auto-Chess.git`
-2. `cd Blue-Archive-Auto-Chess/ba_auto_chess`
-3. `python main.py`
+2. `cd Blue-Archive-Auto-Chess`
+3. `python ba_auto_chess/python main.py`
 
 ### Run the game:
 #### 1. View the tutorial (optional)
