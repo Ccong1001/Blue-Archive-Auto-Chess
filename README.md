@@ -19,11 +19,7 @@
 3. **Deployment**: First 10 units in your reserve are automatically deployed
 4. **Battle**: Units automatically attack and use skills in combat
 5. **Results**: Win/lose based on which team has more surviving units
-### 💡 Strategic Elements
-- **Unit Merging**: Combine 2 identical units to create a stronger ⭐⭐ unit
-- **School Planning**: Deploy units from the same school to gain attack bonuses
-3. **Element Matching**: Use favorable element matchups against your opponent
-4. **Economy Management**: Balance spending versus saving for interest income
+
 ## 🕹️ How To Play
 ### Download
 1. `git clone https://github.com/Ccong1001/Blue-Archive-Auto-Chess.git`
